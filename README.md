@@ -1,4 +1,4 @@
-### <h2 align="center">:skull: <br> <br>Web Vulnerabilities Checklist<br><h4 align="center"><a href="https://www.twitter.com/nullb0t">nullb0t</a></h1>
+### <h2 align="center">:skull: <br> <br>Web Vulnerabilities Checklist<br><h4 align="center"><a href="https://www.twitter.com/nullb0t">:zap: nullb0t :zap:</a></h1>
 
 #### Recon & Source Code Analysis
 - [x] Dynamic Analysis of Web Application Source Code
