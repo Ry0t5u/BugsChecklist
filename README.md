@@ -1,4 +1,5 @@
-### <h2 align="center">:skull: <br> <br>Web Vulnerabilities Checklist</h1>
+### <h2 align="center">:skull: <br> <br>Web Vulnerabilities Checklist<br><h4 align="center"><a href="https://www.twitter.com/nullb0t">nullb0t</a></h1>
+
 #### Recon & Source Code Analysis
 - [x] Dynamic Analysis of Web Application Source Code
 - [x] Dynamic Analysis of Complete JavaScript Source
