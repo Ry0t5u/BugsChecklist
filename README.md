@@ -1,11 +1,24 @@
 ### <h2 align="center">:skull: <br> <br>Web Vulnerabilities Checklist</h1>
-#### Reconnaissance & Source Code Analysis
+#### Recon & Source Code Analysis
 - [x] Dynamic Analysis of Web Application Source Code
 - [x] Dynamic Analysis of Complete JavaScript Source
 - [x] Enumeration of Publicly Accessible Cloud Storage
 - [x] Common Crawling & Sensitive Directory Enumeration
 - [x] Manual & Automated Subdomain Analysis | Discovery
 - [x] Identifying & Testing for Subdomain Takeover Issues
+#### Information gathering part
+- [ ] Fingerprint Web Server - `Find the version and type of a running web server to determine known vulnerabilities and the appropriate exploits.Using "HTTP header field ordering" and "Malformed requests test"`.
+- [ ] Review Webserver Metafiles for Information Leakage - `Analyze robots.txt and identify Tags from website.`
+- [ ] Enumerate Applications on Webserver- `Find applications hosted in the webserver (Virtual hosts/Subdomain), non-standard ports.`
+- [ ] Find sensitive information `from webpage comments and Metadata on source code.`
+- [ ] Map the target application and understand the principal workflows.
+- [ ] Find the type of web application framework/CMS - `Identify application architecture including Web language, WAF, Reverse proxy, Application Server, Backend Database.`
+- [ ] Identify HTTP allowed methods on Web server` with OPTIONS. Arbitrary HTTP Methods, HEAD access control bypass and XST.`
+- [ ] Check JS source code, comments, cache file, backup file (.old, .bak, .inc, .src) and guessing of filename
+- [ ] Find important file, information `(.asa , .inc , .sql ,zip, tar, pdf, txt, etc).`
+- [ ] Verify that the identity requirements for user registration are aligned with business and security requirements.
+- [ ] Testing for bypassing authentication schema `Force browsing (/admin/main.php, /page.asp?authenticated=yes), Parameter Modification, Session ID prediction, SQL Injection`
+- [ ] If multiple files can be uploaded at once, there must be tests in place to verify that each file is properly evaluated.`PS. file.phtml, shell.phPWND, SHELL~1.PHP`
 #### Testing for Authentication Issues
 - [ ] Improper Authorization
 - [x] Improper Authentication
